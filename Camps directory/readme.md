@@ -1,4 +1,4 @@
-#YelpCamp
+#CampDirectory/YelpCamp Creation steps and milestone
 
 ##Initial Setup
 * Add Landing Page
@@ -32,7 +32,7 @@ Each Campground has:
 * Use campground model inside of our routes
 
 ##Show Page
-* Review the RESTful routes we've seen so far
+* Review the RESTful routes 
 * Add description to our campground model
 * Show db.collection.drop()
 * Add a show route/template
@@ -51,7 +51,6 @@ Each Campground has:
 * Display comments on campground show page
 
 ##Comment New/Create
-* Discuss nested routes
 * Add the comment new and create routes
 * Add the new comment form
 

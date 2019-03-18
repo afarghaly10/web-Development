@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Lato:400,700|Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Cookie|Courgette|Kalam');
+
+body{
+	background: url("http://kelasjodoh.com/wp-content/uploads/2017/02/Open-book-2560x1600-photography-wallpaper.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#sayButton, #searchButton {
+	border-radius : 8px;
+	moz-border-radius : 8px;
+	font-size : 16px;
+	padding : 5px 18px;
+	cursor:pointer;
+}
+
+.buttons:hover {
+	background-color:#ffc477;
+}
+
+.buttons:active {
+	position:relative;
+	top:1px;
+}
+
+#newPost {
+	margin: 0 auto;
+	width: 90%;
+}
+
+#charCounter { 
+	float:right;
+	color: black;
+ }
+
+textarea {
+  width:		100%;
+	height: 	10em;
+}
+
+#content {
+  width: 90% ;
+  margin-left: auto ;
+  margin-right: auto;
+	margin-bottom: 10px;
+	font-family:verdana, sans-serif;
+	word-spacing:4pt;
+	font-size:14px;
+}
+
+#posts {
+	font-weight:normal;
+	color:#000000;
+	word-spacing:4pt;
+	font-size:10px;
+	text-align:left;
+	font-family:verdana, sans-serif;
+	width: 90%;
+	margin: 0 auto;
+}
+
+#posts th {
+	color: white;
+	padding: 8px;
+	border-bottom: 1px solid #ddd;
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+	0px 8px 13px rgba(0, 0, 0, 0.1),
+	0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+#posts td {
+	padding: 8px;
+	border-color: #666666;
+	background-color: #ffffff;
+	border-bottom: 1px solid #ddd;
+}
+h1{
+	text-align: center;
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+	0px 8px 13px rgba(0, 0, 0, 0.1),
+	0px 18px 23px rgba(0, 0, 0, 0.1);
+	color: azure;
+	font-family: 'Lato', sans-serif;
+}
+p{
+	text-align: center;
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+	0px 8px 13px rgba(0, 0, 0, 0.1),
+	0px 18px 23px rgba(0, 0, 0, 0.1);
+	color:azure;
+	font-size: 1.5em;
+	font-family: 'Kalam', cursive;
+}
+#V{
+	color: azure;
+}
+#V2{
+	color: azure;
+}
+hr {
+	height: 12px;
+	border: 0;
+	box-shadow: inset 0 12px 12px -12px rgba(252, 250, 250, 0.5);
+	width: 50%;
+}

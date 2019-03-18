@@ -1,5 +1,15 @@
 README
 
+# Serverless Workshop
+
+This is a completely serverless video sharing web-site, with:
+
+ - User authentication
+ - Large file video uploads
+ - A transcoding pipeline, that transcodes uploaded videos to web-friendly 480p mp4 format
+ - Push-based, event-driven updates to the web-site. Users see new videos automatically, no browser refreshes needed
+ - The ability to play video files hosted on scalable cloud storage.
+
 1. Run "npm install" to install dependencies
 2. Run "npm start" to start the web-server
 3. Open http://127.0.0.1:8100 to see the website in your browser
